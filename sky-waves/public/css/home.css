@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.oceano{
+    height: 100vh;
+    background-image: url(./../assets//deep-blue-underwater-with-sunlight-rays-shining-through-ocean-surface-free-video.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oceano h1{
+    color: white;
+    font-size: 80px;
+    max-width: 60%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.teste{
+    background-color: #091515;
+    height: 100vh;
+}

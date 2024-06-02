@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sobreposto{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.imagemBurguer{
+    width: 35px;
+    height: auto;
+}
+
+.botoes-menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.lupa{
+    background: none;
+    border: none;
+}
+
+.hamburger{
+    background: none;
+    border: none;
+}
+
+.menu-header{
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    background-color: #032D60;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    z-index: 999;
+}
+
+.menu-header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-header li{
+    padding: 10px 0;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu-header-tela-maior{
+    display: none;
+}
+
+@media screen and (min-width: 680px){
+
+    .menu-header-tela-maior{
+        display: flex;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+
+    .botoes-menu{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 80px;
+    }
+
+    
+    .menu-header-tela-maior ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu-header li{
+        padding: 10px 0;
+    }
+    
+    .menu-link-tela-maior{
+        text-decoration: none;
+        color: #fff;
+        mix-blend-mode: exclusion;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .menu-link-tela-maior:hover{
+        color: #00A1E0;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    header{
+        padding: 20px 10%;
+    }
+}
