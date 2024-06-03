@@ -20,7 +20,7 @@ const Header = () => {
                 <header>
                     <div className="logo">
                         <Link href={"/"}>
-                            <Image src={logo} width={100} height={100} alt="Logo"/>
+                            <Image className='logoSW' src={logo} width={100} height={100} alt="Logo"/>
                         </Link>
                     </div>
                     <div className="botoes-menu">
