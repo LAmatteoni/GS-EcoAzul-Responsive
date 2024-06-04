@@ -9,7 +9,7 @@ export default function Home() {
   return(
     <>
       <section id="oceano">
-        <h1>O oceano depende de você</h1>
+        <h1>O oceano depende de você.</h1>
       </section>
 
       <section className='home-container'>
@@ -57,17 +57,17 @@ export default function Home() {
               </span>
 
               <br />
-              <Link href={"#oceano"}>Voltar ao topo</Link>
+              <Link href={"#oceano"} className='volta'>Voltar ao topo</Link>
             </div>
 
             <div id="oqueEconoAzul" className='mini-secoes'>
               <h3>2. O que é a Economia Azul?</h3>
               <YouTubePlayer videoId="ZsVxTrluCvI" />
-              <p>
+              <span>
                 Spalding, MJ (2021, 26 de maio) Investindo na Nova Economia Azul. A Fundação Oceano. Retirado de:
                 <br />
-                <Link href={"https://youtu.be/ZsVxTrluCvI"}>https://youtu.be/ZsVxTrluCvI</Link>
-              </p>
+                <Link href={"https://youtu.be/ZsVxTrluCvI"} target='new'>https://youtu.be/ZsVxTrluCvI</Link>
+              </span>
 
               <p>
                 A Ocean Foundation é parceira e consultora da Rockefeller Capital Management, ajudando a identificar empresas públicas cujos produtos e serviços atendam às necessidades de um relacionamento humano saudável com o oceano. O presidente da TOF, Mark J. Spalding, discute esta parceria e o investimento em uma economia azul sustentável em um recente webinar de 2021.
@@ -80,14 +80,14 @@ export default function Home() {
               </p>
 
               <YouTubePlayer videoId="cmw4kvfUnZI" />
-              <p>
+              <span>
                 Organização das Nações Unidas para Agricultura e Alimentação. (2017, 3 de maio). Carta do Crescimento Azul em Cabo Verde. Nações Unidas. Retirado de:
                 <br />
-                <Link href={"https://www.youtube.com/watch?v=cmw4kvfUnZI"}>https://www.youtube.com/watch?v=cmw4kvfUnZI</Link>
-              </p>
+                <Link href={"https://www.youtube.com/watch?v=cmw4kvfUnZI"} target='new'>https://www.youtube.com/watch?v=cmw4kvfUnZI</Link>
+              </span>
 
               <br />
-              <Link href={"#oceano"}>Voltar ao topo</Link>
+              <Link href={"#oceano"} className='volta'>Voltar ao topo</Link>
             </div>
 
             <div id="impactoEconomico" className='mini-secoes'>
@@ -102,18 +102,19 @@ export default function Home() {
               </p>
               <div id="img-center">
                 <Image className='infografico' src={Infografico} width={0} height={0} alt='Informativo'/>
-              </div>
+              
               <span>Metroeconomica, The Ocean Foundation e WRI México. (2021, 15 de janeiro). Valoração Económica dos Ecossistemas Recifais da Região MAR e dos Bens e Serviços que Provêm, Relatório Final. Banco Interamericano de Desenvolvimento.</span>
+              </div>
               <p>
                 A Economia Azul como um modelo econômico baseado no oceano exige discussão sobre o papel de uma licença social para operar. O artigo argumenta que a licença social, por meio da aprovação pelas comunidades locais e partes interessadas, afeta a lucratividade de um projeto em relação à Economia Azul.
               </p>
 
               <br />
-              <Link href={"#oceano"}>Voltar ao topo</Link>
+              <Link href={"#oceano"} className='volta'>Voltar ao topo</Link>
             </div>
 
             <div id="Tecnologia" className='mini-secoes'>
-              <h3>6. Tecnologia na Economia Azul</h3>
+              <h3>4. Tecnologia na Economia Azul</h3>
 
               <p>
               Por meio de uma análise de alto nível das oportunidades de mercado potenciais, o Departamento de Energia dos EUA analisa a capacidade de novos recursos e desenvolvimento econômico em energia marítima. O relatório analisa o poder para indústrias offshore e nearshore, incluindo a alimentação de dessalinização, resiliência costeira e recuperação de desastres, aquicultura offshore e sistemas de energia para comunidades isoladas. Informações adicionais sobre tópicos de energia marinha, incluindo algas marinhas, dessalinização, resiliência costeira e sistemas de energia isolados podem ser encontradas.
@@ -123,11 +124,11 @@ export default function Home() {
               </p>
 
               <br />
-              <Link href={"#oceano"}>Voltar ao topo</Link>
+              <Link href={"#oceano"} className='volta'>Voltar ao topo</Link>
             </div>
 
             <div id="CrescimentoAzul" className='mini-secoes'>
-              <h3>7. Crescimento Azul</h3>
+              <h3>5. Crescimento Azul</h3>
 
               <p>
               O crescimento azul estratégico proposto pela União Europeia busca atrair novas tecnologias e ideias de baixo impacto ambiental, além de levar em consideração as interações sociais necessárias para práticas sustentáveis. Em um estudo de caso de aquicultura no Mar do Norte holandês, os pesquisadores identificaram práticas que poderiam se beneficiar da inovação, ao mesmo tempo em que consideraram atitudes, promoveram a colaboração e exploraram os efeitos de longo prazo no meio ambiente. Embora ainda existam muitos desafios, incluindo a adesão de produtores locais, o artigo destaca a importância de um aspecto social na economia azul.
@@ -138,7 +139,7 @@ export default function Home() {
               </p>
 
               <br />
-              <Link href={"#oceano"}>Voltar ao topo</Link>
+              <Link href={"#oceano"} className='volta'>Voltar ao topo</Link>
             </div>
 
           </div>

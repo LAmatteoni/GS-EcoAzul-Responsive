@@ -46,7 +46,7 @@ header{
 
 .menu-header{
     position: absolute;
-    top: 60px;
+    top: 45px;
     right: 5px;
     background-color: #032D60;
     width: 100px;
@@ -55,6 +55,7 @@ header{
     align-items: center;
     padding: 10px;
     z-index: 999;
+    border-radius: 10px 0 10px 10px;
 }
 
 .menu-header ul{
@@ -109,13 +110,13 @@ header{
     
     .menu-link-tela-maior{
         text-decoration: none;
-        color: #fff;
+        color: #E47629;
         mix-blend-mode: exclusion;
         font-weight: 700;
         font-size: 20px;
     }
     .menu-link-tela-maior:hover{
-        color: #E47629;
+        text-shadow: #fff 0 0 10px;
     }
     
 }

@@ -6,7 +6,7 @@
 
 #oceano{
     height: 100vh;
-    background-image: url(./../assets//deep-blue-underwater-with-sunlight-rays-shining-through-ocean-surface-free-video.jpg);
+    background-image: url(./../assets/oceano-fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    scroll-behavior: smooth;
 }
 .home-texto{
     display: flex;
@@ -39,11 +40,13 @@
     margin-bottom: 20px;
 }
 .home-texto p{
+    word-break: break-all;
     text-align: justify;
     margin-bottom: 10px;
 }
 .home-texto span{
-    font-size: 3.5vmin;
+    word-break: break-all;
+    font-size: 10px;
 }
 .home-container hr{
     min-width: 95%;
@@ -107,7 +110,12 @@
 }
 #img-center{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#img-center span{
+
+    max-width: 768px;
 }
 .mini-secoes{
     display: flex;
@@ -115,20 +123,63 @@
     gap: 10px;
 }
 .mini-secoes p{
+    text-indent: 1.5em;
+    word-break: break-all;
     text-align: justify;
 }
+.mini-secoes span{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
 
-@media screen and (min-width: 426px){
-    .oceano h1{ 
+.volta{
+    color: #bd8b67;
+    width: fit-content;
+}
+
+@media screen and (min-width: 425px){
+    #oceano h1{ 
         font-size: 60px;
         max-width: 80%;
     }
 
+    .mini-secoes h3{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    .mini-secoes p, .home-texto p{
+        word-break: normal;
+    }
 }
 
 @media screen and (min-width: 1024px){
-    .oceano h1{ 
+    #oceano h1{ 
         font-size: 80px;
         max-width: 70%;
+    }
+
+    .home-texto{
+        max-width: 90%;
+    }
+
+    .economia-azul{
+        max-width: 90%;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px){
+    .home-texto{
+        max-width: 80%;
+    }
+
+    .economia-azul{
+        max-width: 80%;
     }
 }

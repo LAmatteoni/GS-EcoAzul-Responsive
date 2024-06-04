@@ -29,20 +29,20 @@ const Header = () => {
                             <nav className="menu-header">
                                 <ul>
                                     <li><Link className='menu-link' href="/">Home</Link></li>
-                                    <li><Link className='menu-link' href="./../Sobre-Nos">Sobre Nós</Link></li>
                                     <li><Link className='menu-link' href="./../Game">Game</Link></li>
                                     <li><Link className='menu-link' href="./../Ranking">Ranking</Link></li>
                                     <li><Link className='menu-link' href="./../ONGs">ONGs</Link></li>
+                                    <li><Link className='menu-link' href="./../Sobre-Nos">Sobre Nós</Link></li>
                                 </ul>
                             </nav>
                         )}
                         <nav className="menu-header-tela-maior">
                             <ul>
                                 <li><Link className='menu-link-tela-maior' href="/">Home</Link></li>
-                                <li><Link className='menu-link-tela-maior' href="./../Sobre-Nos">Sobre Nós</Link></li>
                                 <li><Link className='menu-link-tela-maior' href="./../Game">Game</Link></li>
                                 <li><Link className='menu-link-tela-maior' href="./../Ranking">Ranking</Link></li>
                                 <li><Link className='menu-link-tela-maior' href="./../ONGs">ONGs</Link></li>
+                                <li><Link className='menu-link-tela-maior' href="./../Sobre-Nos">Sobre Nós</Link></li>
                             </ul>
                         </nav>
                     </div>
