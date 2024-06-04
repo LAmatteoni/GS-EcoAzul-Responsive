@@ -11,6 +11,11 @@ footer{
     padding: 30px 20px;
 }
 
+#linha-footer{
+    min-width: 92%;
+    margin-top: 50px;
+}
+
 .menu-footer{
     padding-bottom: 40px;
 }

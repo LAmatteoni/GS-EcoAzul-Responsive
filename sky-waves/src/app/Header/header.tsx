@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import logo from './../../../public/assets/logo.png'
-import menuHamburguer from './../../../public/assets/menuHamburguer.png'
+import menuHamburguer from './../../../public/assets/menuHamburguer.svg'
 import { useState } from 'react';
 import Link from 'next/link';
 import './../../../public/css/header.css'

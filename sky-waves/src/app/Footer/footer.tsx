@@ -9,6 +9,7 @@ const Footer = () => {
     return(
         <>
             <footer>
+                <hr id='linha-footer'/>
                 <div className="menu-navegacao">
                     <nav className='menu-footer'>
                         <ul>
