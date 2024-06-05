@@ -14,9 +14,9 @@ const Footer = () => {
                     <nav className='menu-footer'>
                         <ul>
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="./../Sobre-Nos">Sobre Nós</Link></li>
                             <li><Link href="./../Game">Game</Link></li>
-                            <li><Link href="./../ONGs">ONGs</Link></li>
+                            <li><Link href="./../Ranking">Ranking</Link></li>
+                            <li><Link href="./../Sobre-Nos">Sobre Nós</Link></li>
                         </ul>
                     </nav>
                 </div>

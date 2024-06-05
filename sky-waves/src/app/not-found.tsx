@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Image from 'next/image';
 import './../../../sky-waves/public/css/notfound.css'
-import Radar from './../../public/assets/nerd.gif'
+import Radar from './../../public/assets/radar.gif'
 
 const notfound = () =>{
     return(
@@ -8,8 +8,8 @@ const notfound = () =>{
             <div className="nf-content">
                 <h1>Erro 404</h1>
                 <h2>Oh não, parece que você se perdeu!</h2>
+                <Image className='radar' src={Radar} alt='Gif de radar submarino'></Image>
                 <a id="voltar" href="/">Voltar para home</a>
-                <Link href={Radar}></Link>
             </div>
         </>
     )
