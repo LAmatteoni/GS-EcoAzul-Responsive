@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./../assets/fundo_gradiente.svg);
+    
+}
+.equipe h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.desenvolvedores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 70px;
+    gap: 40px;
+}
+.desenvolvedores h2{
+    margin: 0 80px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.integrantes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.card-integrante{
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+.card-integrante h3, span{
+    margin: 0 10px;
+}
+
+.foto-perfil{
+    width: 257px;
+    height: 223px;
+    border-radius: 20px 20px 0 0;
+}
+
+@media screen and (min-width: 768px){
+    .equipe h1{
+        font-size: 60px;
+    }
+}

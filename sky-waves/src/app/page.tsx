@@ -20,7 +20,7 @@ export default function Home() {
             "A natureza tem capacidade de se reconstruir e refazer, no caso dos oceanos isso não é diferente, no entanto, nas últimas três décadas as águas marinhas ingressaram em um intenso processo de poluição, os níveis se elevaram de tal forma que os oceanos e mares já não conseguem se regenerar. As águas dos oceanos e mares são contaminadas e poluídas, principalmente, pelos dejetos introduzidos pelos rios que, em sua maioria, deságuam no litoral, desse modo, a poluição pode ser emitida em grandes distâncias, porém seus reflexos são percebidos em áreas costeiras."
           </p>
           <span>
-            Veja mais sobre "Poluição Oceânica" em: <Link href={"https://brasilescola.uol.com.br/geografia/poluicao-oceanica.htm"} target='new'>https://brasilescola.uol.com.br/geografia/poluicao-oceanica.htm</Link>
+            Veja mais sobre "Poluição Oceânica" em: <Link className='links' href={"https://brasilescola.uol.com.br/geografia/poluicao-oceanica.htm"} target='new'>https://brasilescola.uol.com.br/geografia/poluicao-oceanica.htm</Link>
           </span>
         </div>
 
@@ -30,11 +30,11 @@ export default function Home() {
           <h2>Economia Azul</h2>
 
           <ol>
-            <li><Link href={"#introducao"}>Introdução</Link></li>
-            <li><Link href={"#oqueEconoAzul"}>O que é a Economia Azul?</Link></li>
-            <li><Link href={"#impactoEconomico"}>Impacto Econômico</Link></li>
-            <li><Link href={"#Tecnologia"}>Tecnologia na Economia Azul</Link></li>
-            <li><Link href={"#CrescimentoAzul"}>Crescimento Azul</Link></li>
+            <li><Link className='links' href={"#introducao"}>Introdução</Link></li>
+            <li><Link className='links' href={"#oqueEconoAzul"}>O que é a Economia Azul?</Link></li>
+            <li><Link className='links' href={"#impactoEconomico"}>Impacto Econômico</Link></li>
+            <li><Link className='links' href={"#Tecnologia"}>Tecnologia na Economia Azul</Link></li>
+            <li><Link className='links' href={"#CrescimentoAzul"}>Crescimento Azul</Link></li>
           </ol>
 
           <div className="conteudo">
@@ -66,7 +66,7 @@ export default function Home() {
               <span>
                 Spalding, MJ (2021, 26 de maio) Investindo na Nova Economia Azul. A Fundação Oceano. Retirado de:
                 <br />
-                <Link href={"https://youtu.be/ZsVxTrluCvI"} target='new'>https://youtu.be/ZsVxTrluCvI</Link>
+                <Link className='links' href={"https://youtu.be/ZsVxTrluCvI"} target='new'>https://youtu.be/ZsVxTrluCvI</Link>
               </span>
 
               <p>
@@ -83,7 +83,7 @@ export default function Home() {
               <span>
                 Organização das Nações Unidas para Agricultura e Alimentação. (2017, 3 de maio). Carta do Crescimento Azul em Cabo Verde. Nações Unidas. Retirado de:
                 <br />
-                <Link href={"https://www.youtube.com/watch?v=cmw4kvfUnZI"} target='new'>https://www.youtube.com/watch?v=cmw4kvfUnZI</Link>
+                <Link className='links' href={"https://www.youtube.com/watch?v=cmw4kvfUnZI"} target='new'>https://www.youtube.com/watch?v=cmw4kvfUnZI</Link>
               </span>
 
               <br />

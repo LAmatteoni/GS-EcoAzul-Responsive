@@ -1,9 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
 }
 
+#oceano, .home-container{
+    color: white;
+}
 #oceano{
     height: 100vh;
     background-image: url(./../assets/oceano-fundo.jpg);
@@ -21,7 +23,7 @@
 }
 
 .home-container{
-    background-color: #0A1415;
+    background-image: url(./../assets/home.svg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,6 +89,7 @@
     width: 100%;
     max-width: 768px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .video{
     position: relative;
@@ -103,10 +106,15 @@
     border: 0;
 }
 
+.links{
+    color: white;
+}
+
 .infografico{
     width: 95%;
     max-width: 768px;
     height: auto;
+    margin-top: 20px;
 }
 #img-center{
     display: flex;
@@ -141,7 +149,7 @@
 @media screen and (min-width: 425px){
     #oceano h1{ 
         font-size: 60px;
-        max-width: 80%;
+        /* max-width: 80%; */
     }
 
     .mini-secoes h3{
@@ -160,7 +168,7 @@
 @media screen and (min-width: 1024px){
     #oceano h1{ 
         font-size: 80px;
-        max-width: 70%;
+        /* max-width: 70%; */
     }
 
     .home-texto{
