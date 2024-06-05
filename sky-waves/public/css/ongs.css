@@ -8,8 +8,84 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    height: 60vh;
 }
+
+#erro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+#erro p{
+    font-size: 18px;
+}
+#erro h2{
+    font-size: 20px;
+}
+
+#voltar{
+    width: 200px;
+    padding: 15px;
+    background-color: #001f44;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+#voltar:hover{
+    background-color: #00A1E0;
+}
+
+.content-ongs{
+    display: flex;
+    justify-content: center;
+}
+.content-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.ongs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    min-height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+}
+.ongs h3{
+    height: 1vh;
+    margin-top: 10px;
+    max-width: 90%;
+}
+
+.descricao-ongs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+
+@media screen and (min-width: 320px) {
+    .ongs{
+        min-height: 280px;
+    }
+}
+
+
 .loader {
     width: 50px;
     aspect-ratio: 1;

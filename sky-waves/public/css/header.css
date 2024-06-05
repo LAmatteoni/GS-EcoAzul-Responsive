@@ -19,6 +19,7 @@ header{
 .imagemBurguer{
     width: 35px;
     height: auto;
+    filter: invert();
 }
 
 .botoes-menu{

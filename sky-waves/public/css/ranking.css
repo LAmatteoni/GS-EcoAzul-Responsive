@@ -3,12 +3,21 @@
     margin: 0;
 }
 
-.secaoteste{
+.secao-ongs{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(./../assets/fundo_gradiente.svg);
-    height: 100vh;
+    height: 100%;
+    padding-top: 100px;
     color: white;
+}
+
+.filtro-ongs{
+    width: 80%;
+}
+.filtro-ongs h1{
+    margin-bottom: 20px;
+    text-align: center;
 }
