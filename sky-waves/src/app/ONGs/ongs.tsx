@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "./../../../public/css/ongs.css"
 import Link from "next/link";
 
+
 const ONGS = () => {
     const [data, setData] = useState<any[]>([]);
     const [error, setError] = useState<string | null>(null);
@@ -45,17 +46,20 @@ const ONGS = () => {
 
     return (
         <>
-            <div className="content-ongs">
-                <div className="content-card">
-                    {data.map((ong) => (
-                        <div className="ongs" key={ong.idOng}>
-                            <h3>{ong.nome}</h3>
-                            <div className="descricao-ongs">
-                                <p>- {ong.estado}</p>
-                                <p>Atuação: <br /> {ong.areaAtuacao}</p>
+            <div className="container-ranking">
+                <h1>Conheça as ONGs brasileiras</h1>
+                <div className="content-ongs">
+                    <div className="content-card">
+                        {data.map((ong) => (
+                            <div className="ongs" key={ong.idOng}>
+                                <h3>{ong.nome}</h3>
+                                <div className="descricao-ongs">
+                                    <p>- {ong.estado}</p>
+                                    <p>Atuação: <br /> {ong.areaAtuacao}</p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

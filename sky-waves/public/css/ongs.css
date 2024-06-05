@@ -78,6 +78,11 @@
     gap: 10px;
 }
 
+.container-ranking h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 @media screen and (min-width: 320px) {
     .ongs{

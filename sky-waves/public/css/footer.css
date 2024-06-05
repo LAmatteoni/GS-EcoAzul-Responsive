@@ -55,7 +55,11 @@ footer{
     gap: 20px;
     padding-bottom: 10px;
 }
-.endereco-logos address{
+.integrantes-footer h5{
+    text-align: center;
+    color: white;
+}
+.integrantes-footer p{
     color: white;
     text-align: center;
 }
@@ -77,9 +81,8 @@ footer{
     color: white;
 }
 
-@media screen and (min-width: 1024px){
-    address{
-        width: 400px;
-        margin-right: 60px;
+@media screen and (min-width: 768px){
+    .endereco-logos{
+        gap: 50px;
     }
 }

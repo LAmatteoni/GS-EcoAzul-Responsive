@@ -7,7 +7,6 @@ const Ranking = () => {
         <>
             <section className='secao-ongs'>
                 <div className="filtro-ongs">
-                    <h1>Conheça as ONGs brasileiras</h1>
                     <ONGS/>
                 </div>
             </section>

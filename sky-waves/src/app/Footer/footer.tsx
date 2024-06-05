@@ -22,7 +22,12 @@ const Footer = () => {
                 </div>
 
                 <div className="endereco-logos">
-                    <address>FIAP, 7th floor - Torre A, R. Fidêncio Ramos, 308 - Vila Olímpia, São Paulo - SP, 04551-000</address>
+                    <div className="integrantes-footer">
+                        <h5>Integrantes:</h5>
+                        <p>Lucca Matteoni - RM98146 - 1TDSPB</p>
+                        <p>Vitor Santos - RM553621 - 1TDSPB</p>
+                        <p>Keven Pereira - RM550000 - 1TDSPB</p>
+                    </div>
                     <div className="logos-footer">
                         <Link href={'/'}><Image className='logoSW' src={logo} width={100} height={100} alt='Logo'/></Link>
                         <Link href={'https://www.fiap.com.br/'} target='_blank'><Image className='logoFiap' src={logoFiap} alt='Logo da FIAP'/></Link>
