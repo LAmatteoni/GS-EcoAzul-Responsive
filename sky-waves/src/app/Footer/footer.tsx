@@ -26,7 +26,7 @@ const Footer = () => {
                         <h5>Integrantes:</h5>
                         <p>Lucca Matteoni - RM98146 - 1TDSPB</p>
                         <p>Vitor Santos - RM553621 - 1TDSPB</p>
-                        <p>Keven Pereira - RM550000 - 1TDSPB</p>
+                        <p>Keven Pereira - RM553215 - 1TDSPB</p>
                     </div>
                     <div className="logos-footer">
                         <Link href={'/'}><Image className='logoSW' src={logo} width={100} height={100} alt='Logo'/></Link>

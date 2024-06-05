@@ -115,6 +115,7 @@ header{
         mix-blend-mode: exclusion;
         font-weight: 700;
         font-size: 20px;
+        transition: 0.5s;
     }
     .menu-link-tela-maior:hover{
         text-shadow: #fff 0 0 10px;

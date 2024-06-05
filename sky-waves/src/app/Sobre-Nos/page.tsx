@@ -29,7 +29,7 @@ const Sobrenos = () => {
                         <div className="card-integrante">
                             <Image src={Keven} className='foto-perfil' alt='Foto de perfil do integrante Keven'/>
                             <h3>Keven Pereira</h3>
-                            <span>RM550000</span>
+                            <span>RM553215</span>
                             <span>-</span>
                             <span>1TDSPB</span>
                         </div>
