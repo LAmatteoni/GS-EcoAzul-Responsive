@@ -42,7 +42,7 @@
     margin-bottom: 20px;
 }
 .home-texto p{
-    word-break: break-all;
+    hyphens: auto;
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -132,7 +132,7 @@
 }
 .mini-secoes p{
     text-indent: 1.5em;
-    word-break: break-all;
+    hyphens: auto;
     text-align: justify;
 }
 .mini-secoes span{
@@ -149,7 +149,6 @@
 @media screen and (min-width: 425px){
     #oceano h1{ 
         font-size: 60px;
-        /* max-width: 80%; */
     }
 
     .mini-secoes h3{
@@ -168,7 +167,6 @@
 @media screen and (min-width: 1024px){
     #oceano h1{ 
         font-size: 80px;
-        /* max-width: 70%; */
     }
 
     .home-texto{

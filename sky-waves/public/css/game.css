@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-game{
+    background-image: url(./../assets/fundo_gradiente.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+.sobre-game{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.conteudo-game p{
+    text-align: justify;
+    hyphens: auto;
+    text-indent: .5em;
+    margin-bottom: 5px;
+}
+.conteudo-game h3{
+    margin-top: 10px;
+}
+
+.historia-game{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recursos-educativos{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
