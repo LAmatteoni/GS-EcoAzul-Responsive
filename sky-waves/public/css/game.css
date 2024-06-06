@@ -42,3 +42,21 @@
     flex-direction: column;
     gap: 10px;
 }
+
+@media screen and (min-width: 425px){
+    .container-game h1{ 
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .sobre-game, .historia-game, .recursos-educativos{
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .sobre-game, .historia-game, .recursos-educativos{
+        max-width: 80%;
+    }
+}

@@ -157,13 +157,6 @@
 
 }
 
-@media screen and (min-width: 768px){
-
-    .mini-secoes p, .home-texto p{
-        word-break: normal;
-    }
-}
-
 @media screen and (min-width: 1024px){
     #oceano h1{ 
         font-size: 80px;

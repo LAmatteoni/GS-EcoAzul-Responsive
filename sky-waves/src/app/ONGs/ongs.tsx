@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import "./../../../public/css/ongs.css"
 import Link from "next/link";
+import Image from "next/image";
 
 
 const ONGS = () => {
@@ -52,11 +53,16 @@ const ONGS = () => {
                     <div className="content-card">
                         {data.map((ong) => (
                             <div className="ongs" key={ong.idOng}>
-                                <h3>{ong.nome}</h3>
+                                <Image className="img-ongs" src={"/assets/" + ong.imagem} width={300} height={300} alt={"Imagem da ONG " + ong.nome}/>
+                                <hr className="borda-img"/>
                                 <div className="descricao-ongs">
+                                    <h3>{ong.nome}</h3>
+                                    <p>- {ong.pais}</p>
                                     <p>- {ong.estado}</p>
+                                    <p>- {ong.imagem}</p>
                                     <p>Atuação: <br /> {ong.areaAtuacao}</p>
                                 </div>
+                                <p>Lixo coletado: <br /> {ong.materialColetado} Toneladas</p>
                             </div>
                         ))}
                     </div>

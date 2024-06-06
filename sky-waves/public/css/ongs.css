@@ -46,36 +46,33 @@
 }
 .content-card{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 .ongs{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    max-width: 300px;
-    min-height: 250px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(100, 100, 100, 0.5);
     border-radius: 20px;
+    gap: 30px;
+}
+.img-ongs{
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.borda-img{
+    width: 0;
+    height: 200px;
 }
 .ongs h3{
-    height: 1vh;
-    margin-top: 10px;
-    max-width: 90%;
-}
 
+}
 .descricao-ongs{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    height: 100%;
-    width: 90%;
-    margin-bottom: 15px;
-    gap: 10px;
+
 }
 
 .container-ranking h1{
