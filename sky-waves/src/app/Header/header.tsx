@@ -3,20 +3,35 @@
 import Image from 'next/image';
 import logo from './../../../public/assets/logo.png'
 import menuHamburguer from './../../../public/assets/menuHamburguer.svg'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import Link from 'next/link';
 import './../../../public/css/header.css'
 
     
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [hasBackground, setHasBackground] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const threshold = 30;
+            const scrollPosition = window.scrollY;
+
+            setHasBackground(scrollPosition > threshold);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return(
         <>
-            <div className="sobreposto">
+            <div className={`sobreposto ${hasBackground? 'scroll-fundo' : ''}`}>
                 <header>
                     <div className="logo">
                         <Link href={"/"}>
@@ -37,10 +52,10 @@ const Header = () => {
                         )}
                         <nav className="menu-header-tela-maior">
                             <ul>
-                                <li><Link className='menu-link-tela-maior' href="/">Home</Link></li>
-                                <li><Link className='menu-link-tela-maior' href="./../Game">Game</Link></li>
-                                <li><Link className='menu-link-tela-maior' href="./../Ongs">ONGs</Link></li>
-                                <li><Link className='menu-link-tela-maior' href="./../Sobre-Nos">Sobre Nós</Link></li>
+                                <li><Link className={`menu-link-tela-maior ${hasBackground? 'menu-scroll' : ''}`} href="/">Home</Link></li>
+                                <li><Link className={`menu-link-tela-maior ${hasBackground? 'menu-scroll' : ''}`} href="./../Game">Game</Link></li>
+                                <li><Link className={`menu-link-tela-maior ${hasBackground? 'menu-scroll' : ''}`} href="./../Ongs">ONGs</Link></li>
+                                <li><Link className={`menu-link-tela-maior ${hasBackground? 'menu-scroll' : ''}`} href="./../Sobre-Nos">Sobre Nós</Link></li>
                             </ul>
                         </nav>
                     </div>

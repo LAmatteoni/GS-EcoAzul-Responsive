@@ -14,12 +14,16 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1000;
+    transition: .75s;
+}
+
+.scroll-fundo {
+    background-color: white;
 }
 
 .imagemBurguer{
     width: 35px;
     height: auto;
-    filter: invert();
 }
 
 .botoes-menu{
@@ -112,13 +116,16 @@ header{
     .menu-link-tela-maior{
         text-decoration: none;
         color: #E47629;
-        mix-blend-mode: exclusion;
         font-weight: 700;
         font-size: 20px;
-        transition: 0.5s;
     }
     .menu-link-tela-maior:hover{
         text-shadow: #fff 0 0 10px;
+        transition: 0.5s;
+    }
+
+    .menu-scroll{
+        color: rgb(0, 0, 179);
     }
     
 }
