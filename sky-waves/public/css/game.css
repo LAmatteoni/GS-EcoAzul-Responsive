@@ -29,6 +29,26 @@
     margin-top: 10px;
     margin-bottom: 5px;
 }
+.conteudo-game{
+    display: flex;
+    flex-direction: column;
+}
+.imgs-jogo, .imgs-jogo-2{
+    width: 95%;
+    max-width: 768px;
+    height: auto;
+    margin-top: 20px;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.img-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .historia-game{
     width: 95%;
@@ -59,5 +79,14 @@
 @media screen and (min-width: 1440px){
     .sobre-game, .historia-game, .recursos-educativos{
         max-width: 80%;
+    }
+
+    .img-flex{
+        flex-direction: row;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .imgs-jogo-2{
+        max-width: 500px;
     }
 }

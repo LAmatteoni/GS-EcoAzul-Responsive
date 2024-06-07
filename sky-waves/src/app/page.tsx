@@ -101,7 +101,7 @@ export default function Home() {
               O Sistema Mesoamericano de Barreiras de Corais (MBRS ou MAR) é o maior ecossistema de recifes da América e o segundo maior do mundo. O estudo considerou serviços de abastecimento, serviços culturais e serviços reguladores fornecidos pelos ecossistemas de recifes na região MAR e descobriu que o turismo e a recreação contribuíram com 4,092 milhões de dólares na região mesoamericana, com a pesca contribuindo com 615 milhões de dólares adicionais. Os benefícios anuais da proteção costeira equivaleram a 322.83-440.71 milhões de dólares. Este relatório é o resultado de quatro sessões de trabalho online em um workshop em janeiro de 2021 com mais de 100 participantes representando quatro países MAR: México, Belize, Guatemala e Honduras. O infográfigo do Sumário Executivo pode ser encontrados abaixo:
               </p>
               <div id="img-center">
-                <Image className='infografico' src={Infografico} width={0} height={0} alt='Informativo'/>
+                <Image className='infografico' src={Infografico} alt='Informativo'/>
               
               <span>Metroeconomica, The Ocean Foundation e WRI México. (2021, 15 de janeiro). Valoração Económica dos Ecossistemas Recifais da Região MAR e dos Bens e Serviços que Provêm, Relatório Final. Banco Interamericano de Desenvolvimento.</span>
               </div>

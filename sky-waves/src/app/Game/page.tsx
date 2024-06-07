@@ -1,5 +1,9 @@
 
 import './../../../public/css/game.css'
+import Image from 'next/image'
+import Personagens from './../../../public/assets/personagens.png'
+import Exemplo_fase from './../../../public/assets/exemplo_fase.png'
+import Exemplo_lixo from './../../../public/assets/exemplo_lixo.png'
 
 const Game = () => {
     return(
@@ -24,6 +28,9 @@ const Game = () => {
                         <p><b>Jogador (Pesquisador Marinho):</b> Um cientista dedicado à preservação dos oceanos.</p>
                         <p><b>Inteligência Artificial Assistente (Aqua):</b> Um assistente virtual que fornece informações e orientações ao jogador.</p>
                         <p><b>Ambientalistas Locais:</b> NPCs que fornecem missões e compartilham histórias sobre os impactos locais da poluição.</p>
+                        <div className="img-center">
+                            <Image className="imgs-jogo" src={Personagens} alt='Personagens'/>
+                        </div>
                     </div>
 
                     <div className="conteudo-game">
@@ -33,6 +40,10 @@ const Game = () => {
                         <p><b>Telas Explicativas:</b> Após documentar uma área, o jogador vê uma tela explicativa mostrando o estado antes e depois do local, com informações detalhadas sobre o tipo de poluição e seus impactos.</p>
                         <p><b>Missões e Desafios:</b> Missões específicas são dadas pelos ambientalistas locais, como limpar uma área de lixo, restaurar um recife de coral, ou resgatar animais marinhos em perigo.</p>
                         <p><b>Educação e Conscientização:</b> Durante a exploração, Aqua fornece informações educativas sobre a biodiversidade marinha e os efeitos da poluição.</p>
+                        <div className="img-flex">
+                            <Image className="imgs-jogo-2" src={Exemplo_fase} alt='Exemplo de fase do jogo'/>
+                            <Image className="imgs-jogo-2" src={Exemplo_lixo} alt='Exemplo de como o oceano fica após o lixo'/>
+                        </div>
                     </div>
                 </div>
 
