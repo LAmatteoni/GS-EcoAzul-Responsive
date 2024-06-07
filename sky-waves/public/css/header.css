@@ -127,6 +127,9 @@ header{
     .menu-scroll{
         color: rgb(0, 0, 179);
     }
+    .menu-scroll:hover{
+        color: rgb(0, 0, 255);
+    }
     
 }
 
