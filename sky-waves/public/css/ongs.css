@@ -94,8 +94,35 @@
 }
 
 .filtro{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
 }
+
+.botao-filtro {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+    transition: .2s;
+}
+.botao-filtro:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px;
+}
+
+.botao-filtro:active {
+  transform: translate(1px , 1px);
+  box-shadow: 1px 1px;
+}
+
 
 @media screen and (min-width: 375px) {
     .descricao-ongs{

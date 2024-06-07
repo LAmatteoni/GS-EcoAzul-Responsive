@@ -73,7 +73,7 @@ const ONGS = () => {
                 <h1>Conheça as melhores ONGs</h1>
                 <div className="filtro">
                     <h4>Filtro:</h4>
-                    <button onClick={handleSortOrderToggle}>
+                    <button className="botao-filtro" onClick={handleSortOrderToggle}>
                         {sortOrder === 'decrescente' ? 'Menos lixo coletado' : 'Mais lixo coletado'}
                     </button>
                 </div>
