@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from 'next/font/google'
 import Header from './Header/header';
 import Footer from './Footer/footer';
+import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "Sky Waves",
@@ -27,7 +28,7 @@ export default function RootLayout({
       </head>
       <body className={poppins.className}>
         <Header/>
-        {children}
+        <Providers>{children}</Providers>
         <Footer/>
       </body>
     </html>
